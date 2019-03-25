@@ -1,0 +1,11 @@
+.center{
+  text-align: center;
+}
+
+.stats {
+  margin: 20px;
+}
+
+.capitalize{
+  text-transform: uppercase;
+}

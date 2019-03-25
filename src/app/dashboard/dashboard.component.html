@@ -1,0 +1,24 @@
+<div class="body">
+  <app-page-header [title]="'Dashboard'"></app-page-header>
+  <div class="row bg-purple" style="padding-top: 30px; padding-bottom: 30px; ">
+    <div class="col-3">
+      <app-statscard [count]="42" [title]="'Users'" [iconClass]="'fa fa-users'" [color]="'purple'"></app-statscard>
+    </div>
+    <div class="col-3">
+      <app-statscard [count]="100" [title]="'Orders'" [iconClass]="'fa fa-cart-plus'" [color]="'#009688'">
+      </app-statscard>
+    </div>
+    <div class="col-3">
+      <app-statscard [count]="170" [title]="'Requests'" [iconClass]="'fa fa-volume-control-phone'" [color]="'#FFC107'">
+      </app-statscard>
+    </div>
+    <div class="col-3">
+      <app-statscard [count]="80" [title]="'Delivered'" [iconClass]="'fa fa-truck'" [color]="'green'"></app-statscard>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <app-user-table [data]="users" [tableHeaders]="tableHeaders"></app-user-table>
+    </div>
+  </div>
+</div>

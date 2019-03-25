@@ -1,0 +1,19 @@
+.container-content{
+  margin-top:50px;
+}
+
+.border-right {
+  border-right: 1px solid #eee;
+}
+
+.mh-80{
+  min-height: 80vh;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.customer{
+  margin-top: 100px;
+}
